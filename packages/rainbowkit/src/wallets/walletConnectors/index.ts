@@ -9,6 +9,7 @@ import { omniWallet } from './omniWallet/omniWallet';
 import { rainbowWallet } from './rainbowWallet/rainbowWallet';
 import { trustWallet } from './trustWallet/trustWallet';
 import { walletConnectWallet } from './walletConnectWallet/walletConnectWallet';
+import { core } from './core/core';
 
 export {
   argentWallet,
@@ -22,4 +23,5 @@ export {
   rainbowWallet,
   trustWallet,
   walletConnectWallet,
+  core,
 };

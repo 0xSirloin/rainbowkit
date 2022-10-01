@@ -33,6 +33,7 @@ const connectors = connectorsForWallets([
     groupName: 'More',
     wallets: [
       argentWallet({ chains }),
+      wallet.core({ chains }),
       trustWallet({ chains }),
       omniWallet({ chains }),
       imTokenWallet({ chains }),

@@ -86,6 +86,17 @@ walletConnectWallet(options: {
 });
 ```
 
+#### Core Wallet
+
+```tsx
+import { wallet } from '@rainbow-me/rainbowkit';
+wallet.core(options: {
+  chains: Chain[];
+  shimDisconnect?: boolean;
+});
+```
+
+
 ##### Injected Wallet
 
 This is a fallback wallet option designed for scenarios where `window.ethereum` exists but hasn’t been provided by another wallet in the list. This wallet will automatically hide itself from the list when the fallback is not necessary or if there is no injected wallet available.
