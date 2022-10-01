@@ -21,6 +21,7 @@ import {
   ledgerWallet,
   omniWallet,
   trustWallet,
+  core
 } from '@rainbow-me/rainbowkit/wallets';
 
 import { SessionProvider, signOut } from 'next-auth/react';
