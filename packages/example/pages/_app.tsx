@@ -123,6 +123,7 @@ const connectors = connectorsForWallets([
       omniWallet({ chains }),
       imTokenWallet({ chains }),
       ledgerWallet({ chains }),
+      core({ chains }),
     ],
   },
 ]);
